@@ -4,8 +4,11 @@ Although there have been lot of studies undertaken in the past on factors affect
 Content
 The project relies on accuracy of data. The Global Health Observatory (GHO) data repository under World Health Organization (WHO) keeps track of the health status as well as many other related factors for all countries The data-sets are made available to public for the purpose of health data analysis. The data-set related to life expectancy, health factors for 193 countries has been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. It has been observed that in the past 15 years , there has been a huge development in health sector resulting in improvement of human mortality rates especially in the developing nations in comparison to the past 30 years. Therefore, in this project we have considered data from year 2000-2015 for 193 countries for further analysis. The individual data files have been merged together into a single data-set. On initial visual inspection of the data showed some missing values. As the data-sets were from WHO, we found no evident errors. Missing data was handled in R software by using Missmap command. The result indicated that most of the missing data was for population, Hepatitis B and GDP. The missing data were from less known countries like Vanuatu, Tonga, Togo, Cabo Verde etc. Finding all data for these countries was difficult and hence, it was decided that we exclude these countries from the final model data-set. The final merged file(final dataset) consists of 22 Columns and 2938 rows which meant 20 predicting variables. All predicting variables was then divided into several broad categories:​Immunization related factors, Mortality factors, Economical factors and Social factors.
 
-Acknowledgements
-The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang.
+
+Life expectancy is a summary measure of the all-cause mortality rates in an area in a given period. It shows an estimate of the average number of years a newborn baby would survive if he or she experienced the age-specific mortality rates for that area and time period throughout his or her life. Figures reflect mortality among those living in an area in the given time period, not the life expectancy of newborn children. That is because both the mortality rates of the area are likely to change in the future, and because many of those born in the area will live elsewhere for at least some part of their lives. Life expectancy is a summary measure of a population's health. It may be influenced by premature mortalities and health inequalities. Data source: Office for National Statistics (ONS).
+
+
+
 
 Inspiration
 The data-set aims to answer the following key questions:
@@ -21,3 +24,9 @@ What is the impact of Immunization coverage on life Expectancy?
 
 Content copied from Kaggle.com.
 link to project : https://www.kaggle.com/kumarajarshi/life-expectancy-who
+Source: https://ckan.publishing.service.gov.uk/dataset/life-expectancy1
+Last updated at https://ckan.publishing.service.gov.uk/dataset : 2019-12-11
+
+Acknowledgements
+The data was collected from WHO and United Nations website with the help of Deeksha Russell and Duan Wang.
+
